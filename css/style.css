@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 7rem;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.sections {
+    margin: 0 3rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.main {
+    background-color: rgb(0, 0, 0);
+}
+
+.landing {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 1fr auto;
+    align-items: center;
+    margin: auto auto;
+    gap: 2rem;
+    width: 90%;
+    height: 90vh;
+}
+
+.landing-text h1{
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.landing-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mindAr {
+    width: 300px;
+    height: 350px;
+    background-image: url(../assets/imgs/astronaut.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(50.43deg);
+}
+
+.arrow-button {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 60px;
+    left: calc(100% - 60px/2 + 1rem);
+}
+
+.arrow-button div{
+    background-image: url(../assets/icons/arrow-down.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6rem;
+    height: 6rem;
+}
+
+.profile {
+    
+}
